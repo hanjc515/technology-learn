@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a8f751a9-6a0b-491b-934e-b4ad6484d26c" name="Default Changelist" comment="">
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -8,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> develope
     </list>
+=======
+    <list default="true" id="a8f751a9-6a0b-491b-934e-b4ad6484d26c" name="Default Changelist" comment="" />
+>>>>>>> develope
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Axe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -45,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-learn-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -75,6 +79,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -92,6 +97,11 @@
 =======
     <option name="x" value="519" />
     <option name="y" value="91" />
+>>>>>>> develope
+=======
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="451" />
+    <option name="y" value="92" />
 >>>>>>> develope
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -192,14 +202,19 @@
       <workItem from="1577367551212" duration="366000" />
       <workItem from="1578145523030" duration="61000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1580783750564" duration="72000" />
 =======
       <workItem from="1580783750564" duration="1962000" />
+>>>>>>> develope
+=======
+      <workItem from="1580783750564" duration="2568000" />
 >>>>>>> develope
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="499000" />
   </component>
@@ -212,6 +227,12 @@
     <frame x="519" y="91" width="1400" height="1000" extended-state="0" />
 >>>>>>> develope
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="2995000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="451" y="92" width="1400" height="1000" extended-state="1" />
+>>>>>>> develope
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,10 +270,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Axe.java">
+    <entry file="file://$PROJECT_DIR$/spring-learn-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -266,10 +287,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Axe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
+<<<<<<< HEAD
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> develope
+=======
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
 >>>>>>> develope
         </state>
       </provider>
