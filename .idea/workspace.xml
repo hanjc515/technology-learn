@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="a8f751a9-6a0b-491b-934e-b4ad6484d26c" name="Default Changelist" comment="">
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -11,6 +12,17 @@
     </list>
 =======
     <list default="true" id="a8f751a9-6a0b-491b-934e-b4ad6484d26c" name="Default Changelist" comment="" />
+>>>>>>> develope
+=======
+    <list default="true" id="a8f751a9-6a0b-491b-934e-b4ad6484d26c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springLearn/learn/hanjc/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springLearn/learn/hanjc/Axe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springLearn/learn/hanjc/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springLearn/learn/hanjc/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learn-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring-learn-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springLearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/hanjc/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/hanjc/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/hanjc/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/hanjc/Person.java" afterDir="false" />
+    </list>
 >>>>>>> develope
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +36,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Axe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Chinese.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learn/hanjc/StoneAxe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,17 +83,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-learn-config.xml">
+        <entry file="file://$PROJECT_DIR$/src/spring-learn-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/learn/hanjc/BeanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learn/hanjc/SteelAxe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
+<<<<<<< HEAD
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> develope
+=======
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+              </folding>
 >>>>>>> develope
             </state>
           </provider>
@@ -64,10 +133,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>putVal</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,10 +149,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/spring-learn-config.xml" />
+        <option value="$PROJECT_DIR$/src/learn/hanjc/test.java" />
         <option value="$PROJECT_DIR$/src/learn/hanjc/Person.java" />
+        <option value="$PROJECT_DIR$/src/learn/hanjc/Axe.java" />
+        <option value="$PROJECT_DIR$/src/learn/hanjc/SteelAxe.java" />
+        <option value="$PROJECT_DIR$/src/learn/hanjc/Chinese.java" />
+        <option value="$PROJECT_DIR$/src/learn/hanjc/StoneAxe.java" />
+        <option value="$PROJECT_DIR$/src/spring-learn-config.xml" />
+        <option value="$PROJECT_DIR$/src/learn/hanjc/BeanTest.java" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,6 +185,11 @@
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="451" />
     <option name="y" value="92" />
+>>>>>>> develope
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="395" />
+    <option name="y" value="97" />
 >>>>>>> develope
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -144,7 +232,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/spring-framework-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -154,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\springLearn\technology-learn\src" />
       <recent name="D:\IdeaProjects\springLearn\lib" />
     </key>
   </component>
@@ -169,7 +258,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BeanTest">
+    <configuration name="BeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.hanjc.BeanTest" />
+      <module name="springLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.hanjc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.hanjc.Person" />
       <module name="springLearn" />
@@ -185,6 +287,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanTest" />
         <item itemvalue="Application.Person" />
       </list>
     </recent_temporary>
@@ -203,6 +306,7 @@
       <workItem from="1578145523030" duration="61000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1580783750564" duration="72000" />
 =======
       <workItem from="1580783750564" duration="1962000" />
@@ -210,10 +314,16 @@
 =======
       <workItem from="1580783750564" duration="2568000" />
 >>>>>>> develope
+=======
+      <workItem from="1580783750564" duration="8548000" />
+      <workItem from="1580889825395" duration="310000" />
+      <workItem from="1580950929968" duration="8547000" />
+>>>>>>> develope
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="499000" />
@@ -233,18 +343,24 @@
   <component name="ToolWindowManager">
     <frame x="451" y="92" width="1400" height="1000" extended-state="1" />
 >>>>>>> develope
+=======
+    <option name="totallyTimeSpent" value="17832000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
+>>>>>>> develope
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239819" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11748927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29443255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,6 +371,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,31 +387,103 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-learn-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="377">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Person.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-<<<<<<< HEAD
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-=======
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="242">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Axe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="132">
+<<<<<<< HEAD
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+=======
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="11" />
+=======
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/StoneAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+>>>>>>> develope
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/SteelAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+<<<<<<< HEAD
 <<<<<<< HEAD
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
 >>>>>>> develope
 =======
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+>>>>>>> develope
+=======
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/Chinese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-learn-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/hanjc/BeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
 >>>>>>> develope
         </state>
       </provider>
@@ -349,12 +538,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springLearn</last-edited>
+          <last-edited>Spring|springLearn</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

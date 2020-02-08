@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="chinese" class="learn.hanjc.Chinese">
+        <!--<property name="axe" ref="steelAxe"/>-->
+        <constructor-arg ref="steelAxe"/>
+    </bean>
+
+    <bean id="steelAxe" class="learn.hanjc.SteelAxe"/>
+
+    <bean id="stoneAxe" class="learn.hanjc.StoneAxe">
+        <constructor-arg value="double" type="java.lang.String"/>
+        <constructor-arg value="30" type="int"/>
+    </bean>
+</beans>

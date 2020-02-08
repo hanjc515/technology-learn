@@ -1,8 +1,6 @@
 package learn.hanjc;
 
-public class Axe {
+public interface Axe {
 
-    public void chop(){
-        System.out.println("用斧头砍!");
-    }
+    public String chop();
 }

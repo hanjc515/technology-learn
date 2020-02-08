@@ -1,9 +1,6 @@
 package learn.hanjc;
 
-public class Person{
+public interface Person{
 
-    public static void main(String[] args) {
-        Axe axe = new Axe();
-        axe.chop();
-    }
+    public void useAxe();
 }
