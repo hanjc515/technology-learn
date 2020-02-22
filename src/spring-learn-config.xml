@@ -3,15 +3,18 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="chinese" class="learn.hanjc.Chinese">
+    <bean id="chinese" class="learn.hanjc.temp.Chinese">
         <!--<property name="axe" ref="steelAxe"/>-->
         <constructor-arg ref="steelAxe"/>
     </bean>
 
-    <bean id="steelAxe" class="learn.hanjc.SteelAxe"/>
+    <bean id="steelAxe" class="learn.hanjc.temp.SteelAxe"/>
 
-    <bean id="stoneAxe" class="learn.hanjc.StoneAxe">
+    <bean id="stoneAxe" class="learn.hanjc.temp.StoneAxe">
         <constructor-arg value="double" type="java.lang.String"/>
         <constructor-arg value="30" type="int"/>
     </bean>
+
+    <bean id="messagePublisher" class="learn.hanjc.event.MessagePublisher"/>
+    <bean id="messageListener" class="learn.hanjc.event.MessageListener"/>
 </beans>

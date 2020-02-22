@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="userServiceTarget" class="learn.hanjc.UserServiceImpl">
+        <property name="userDao">
+            <bean class="learn.hanjc.UserDao"/>
+        </property>
+    </bean>
+
+    <bean id="loginBeforeAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="mappedName" value="login"/>
+        <property name="advice">
+            <bean class="learn.hanjc.LoginMethodBeforeAdvice"/>
+        </property>
+    </bean>
+
+    <bean id="createAfterAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="pattern" value=".*create.*"/>
+        <property name="advice">
+            <bean class="learn.hanjc.basicadvisor.CreateAfterReturningAdvice"/>
+        </property>
+    </bean>
+
+    <bean id="userService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="interceptorNames">
+            <list>
+                <value>loginBeforeAdvisor</value>
+                <value>createAfterAdvisor</value>
+            </list>
+        </property>
+
+        <property name="target" ref="userServiceTarget"/>
+    </bean>
+</beans>

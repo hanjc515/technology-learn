@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="target" class="learn.hanjc.introduction.User" scope="prototype">
+        <property name="userName" value="default"/>
+        <property name="password" value="123456"/>
+        <property name="email" value="default@qq.com"/>
+    </bean>
+
+    <bean id="user" scope="prototype" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="target"/>
+        <property name="proxyTargetClass" value="true"/>
+        <property name="proxyInterfaces">
+            <list>
+                <value>learn.hanjc.introduction.Mutable</value>
+            </list>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>introductionAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="introductionAdvisor" scope="prototype" class="org.springframework.aop.support.DefaultIntroductionAdvisor">
+        <constructor-arg>
+            <bean class="learn.hanjc.introduction.MutableInterceptor"/>
+        </constructor-arg>
+    </bean>
+</beans>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="userServiceTarget" class="learn.hanjc.UserServiceImpl">
+        <property name="userDao">
+            <bean class="learn.hanjc.UserDao"/>
+        </property>
+    </bean>
+
+    <bean id="loginMethodBeforeAdvice" class="learn.hanjc.LoginMethodBeforeAdvice"/>
+
+    <bean id="loginAfterReturningAdvice" class="learn.hanjc.basicaop.LoginAfterReturningAdvice"/>
+
+    <bean id="loginThrowsAdvice" class="learn.hanjc.basicaop.LoginThrowsAdvice"/>
+
+    <bean id="userService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="interceptorNames">
+            <list>
+                <value>loginMethodBeforeAdvice</value>
+                <value>loginAfterReturningAdvice</value>
+                <value>loginThrowsAdvice</value>
+            </list>
+        </property>
+
+        <property name="target" ref="userServiceTarget"/>
+    </bean>
+</beans>

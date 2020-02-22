@@ -1,4 +1,4 @@
-package learn.hanjc;
+package learn.hanjc.temp;
 
 public interface Axe {
 
